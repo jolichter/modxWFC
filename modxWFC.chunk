@@ -1,0 +1,34 @@
+[[!modxWFC? &WOEID=`639303` &ICONS=`128`]]
+
+<h3>Aktuell</h3>
+Stand: [[+pubDate]]<br />
+<img src='[[+cond_png]]' title='[[+cond_text]]' alt='' /><br />
+Temp.: [[+cond_temp]] | Luftfeuchte: [[+humidity]] | [[+pressure]] ([[+pressTrend]])<br />
+Wind: [[+wind]] | Windrichtung: [[+direction]] | Sichtweite: [[+visibility]]<br />
+Sonnenaufgang: [[+sunrise]] | Sonnenuntergang: [[+sunset]]<br />
+
+<h3>6 Tage Trend für [[+location]]</h3>
+
+<strong>[[+fc_day0]]</strong><br />
+<img src='[[+fc_png0]]' title='[[+fc_date0]]&#10;[[+fc_text0]]' alt='' /><br />
+[[+fc_temp_low0]] bis [[+fc_temp_high0]]<br />
+
+<strong>[[+fc_day1]]</strong><br />
+<img src='[[+fc_png1]]' title='[[+fc_date1]]&#10;[[+fc_text1]]' alt='' /><br />
+[[+fc_temp_low1]] bis [[+fc_temp_high1]]<br />
+
+<strong>[[+fc_day2]]</strong><br />
+<img src='[[+fc_png2]]' title='[[+fc_date2]]&#10;[[+fc_text2]]' alt='' /><br />
+[[+fc_temp_low2]] bis [[+fc_temp_high2]]<br />
+
+<strong>[[+fc_day3]]</strong><br />
+<img src='[[+fc_png3]]' title='[[+fc_date3]]&#10;[[+fc_text3]]' alt='' /><br />
+[[+fc_temp_low3]] bis [[+fc_temp_high3]]<br />
+
+<strong>[[+fc_day4]]</strong><br />
+<img src='[[+fc_png4]]' title='[[+fc_date4]]&#10;[[+fc_text4]]' alt='' /><br />
+[[+fc_temp_low4]] bis [[+fc_temp_high4]]<br />
+
+<strong>[[+fc_day5]]</strong><br />
+<img src='[[+fc_png5]]' title='[[+fc_date5]]&#10;[[+fc_text5]]' alt='' /><br />
+[[+fc_temp_low5]] bis [[+fc_temp_high5]]<br />
