@@ -1,5 +1,5 @@
 # modxWFC
-GERMAN Yahoo-Weather forecasts by ysql-Query for MODX
+GERMAN Yahoo-Weather forecast by ysql-Query for MODX
 - here a simple MODX snippet and chunk
 
 ---
