@@ -1,5 +1,5 @@
 <?php
-# German MODX Weather Forecast V 17.10.008
+# German MODX Weather Forecast V 17.10.009
 # Weather information for any location from yahoo.com
 # Documentation (old): https://developer.yahoo.com/weather/documentation.html
 #
@@ -198,10 +198,11 @@ if($json != "") {
       }
 
 
+  #fix Yahoo Uhr Bug -> Minuten nur einstellig, z.B "8:1 am" anstatt "8:01 am"
+  $strMinute = array (':0 ' => ':00 ', ':1 ' => ':01 ', ':2 ' => ':02 ', ':3 ' => ':03 ', ':4 ' => ':04 ', ':5 ' => ':05 ', ':6 ' => ':06 ', ':7 ' => ':07 ', ':8 ' => ':08 ', ':9 ' => ':09 ');
   $astronomy = $json->query->results->channel->astronomy;
-  $modx->setPlaceholder('sunrise', DATE('H:i', STRTOTIME($astronomy->sunrise)));
-  $modx->setPlaceholder('sunset', DATE('H:i', STRTOTIME($astronomy->sunset)));
-
+  $modx->setPlaceholder('sunrise', DATE('H:i', STRTOTIME(strtr($astronomy->sunrise,$strMinute))));
+  $modx->setPlaceholder('sunset', DATE('H:i', STRTOTIME(strtr($astronomy->sunset,$strMinute))));
 
   $condition = $json->query->results->channel->item->condition;
   $modx->setPlaceholder('cond_png', $strURLIconHome.$condition->code.'.png');
