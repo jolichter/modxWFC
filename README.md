@@ -1,3 +1,8 @@
+#2019-01-03 Update: Yahoo Wetter API ist nicht mehr ohne Authentifizierung verwendbar.
+"Important EOL Notice: As of Thursday, Jan. 3, 2019, the weather.yahooapis.com and query.yahooapis.com for Yahoo Weather API will be retired."
+Daher funktioniert dieses snippet nicht mehr!
+
+
 # modxWFC
 GERMAN Yahoo-Weather forecast by ysql-Query for MODX
 - here a simple MODX snippet and chunk
