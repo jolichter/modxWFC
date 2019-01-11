@@ -1,6 +1,6 @@
-#2019-01-03 Update: Yahoo Wetter API ist nicht mehr ohne Authentifizierung verwendbar.
+# 2019-01-03 Update: Yahoo Wetter API ist nicht mehr ohne Authentifizierung verwendbar
 "Important EOL Notice: As of Thursday, Jan. 3, 2019, the weather.yahooapis.com and query.yahooapis.com for Yahoo Weather API will be retired."
-Daher funktioniert dieses snippet nicht mehr!
+-> daher funktioniert dieses snippet nicht mehr!
 
 
 # modxWFC
