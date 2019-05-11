@@ -3,11 +3,16 @@
 -> daher funktioniert dieses snippet nicht mehr!
 
 
-# modxWFC
-GERMAN Yahoo-Weather forecast by ysql-Query for MODX
-- here a simple MODX snippet and chunk
+# modxWFC is expired! Please use [dwdWeather](https://github.com/jolichter/dwdWeather)
+
+- Is not so tragic, the Yahoo data was inaccurate or missing. The best alternative what I have found, is the charge-free weather information on the Open Data server of Deutschen Wetterdienst (dwd.de).
+
+- Nichts tragisches, Daten waren nicht präzise und teilweise sogar fehlerhaft. Die beste Alternative die ich gefunden habe, sind die entgeltfreie Wetterinformationen auf dem Open Data-Server vom Deutschen Wetterdienst (dwd.de).
 
 ---
+
+### modxWFC
+GERMAN Yahoo-Weather forecast by ysql-Query for MODX
 
 ### Example Call:
 
